@@ -92,6 +92,25 @@ label {cursor:pointer}
 #footerArea .sns li{width:30px;height:30px;font-size: 1.2em;line-height: 30px}
 }
 
+@media screen and (max-width:640px) {  
+
+.btn{display:block; position:absolute; top:18px; right:5%;color:rgba(249,193,14,1)}
+#nav{clear:both; width:100%; position:absolute; right:-100%; top:2px;
+	 background:rgba(0,0,0,.95)url(../images/nav_back.jpg) 0 0 no-repeat; opacity:0; z-index:20;background-size: contain}
+#nav ul{width:auto;float: none;margin-top: 30%}
+#nav li{float:none; width:auto;font-size: 4vw}
+#nav li a{display: block}
+#nav .close{display:block; position:absolute; right:8%; top:20px; font-size:1.8em; color:rgba(249,193,14,1)}
+#footerArea .copyright{height:40px}
+#footerArea .copyright p{line-height: 2em;margin-top: 0;font-size: 2vw}
+#footerArea .sns{position:relative;left: 50%;top:0;transform:translateX(-50%);width: 120px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+#wrap {min-width:320px}
+}
+
 
 
 
