@@ -231,3 +231,60 @@ section.move .moreBtn{width:40px;height:40px;line-height: 38px;font-size: 2em;to
 .gallery.move li img{object-position: 30% top}
 
 }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+.videoBox .maintext{font-size: 2.4vw}
+section.move h3{font-size: 3.2vw}
+.down{font-size: 2vw;}
+
+/* about(768px) */
+.about.move p{font-size: 1.7vw;line-height: 3.3vw;display: -webkit-box;-webkit-box-orient: vertical;
+         -webkit-line-clamp: 4;overflow: hidden; text-overflow: ellipsis}
+.about.move ul{position:relative;left:0;bottom:0;width:auto;height:280px;margin-top: 3%}
+.about.move .img1{display: none}
+.about.move .img2{width:48%;margin-right:4%}
+.about.move .img3{display: block;width:48%}
+.about.move.active .train{position:absolute;top:13%;left:14%;width:6%;transform: scale(1);opacity: 1}
+
+.charactersInner>p{font-size: 1.7vw;line-height: 3.3vw}
+
+.trailer.move.active .olivia{position:absolute;top:14%;left:15%;width:5%;transform: scale(1);opacity: 1}
+.trailer.move>p{font-size: 1.7vw;line-height: 3.3vw;display: -webkit-box;-webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;overflow: hidden; text-overflow: ellipsis;text-align: justify}
+
+.trailer.move ul{grid-template-columns: repeat(2,1fr);grid-gap: 15px}
+.trailer.move ul li:nth-child(3){display: none}
+.trailer.move .video{border-radius: 15px}
+.trailer.move li span{font-size: 8vw}
+
+.trailer.move li dt{font-size: 2.3vw}
+.trailer.move li dd{font-size: 1.9vw}
+
+.gallery.move.active .twitter{position:absolute;top:10%;left:26%;width:5%;transform: scale(1);opacity: 1}
+
+.gallery.move p{font-size: 1.7vw;line-height: 3.3vw;display: -webkit-box;-webkit-box-orient: vertical;
+           -webkit-line-clamp: 2;overflow: hidden; text-overflow: ellipsis;text-align: justify}
+.gallery.move ul{display: grid;
+   grid-template-columns:  repeat(4, 1fr);
+   grid-auto-rows: 130px;
+   grid-gap: 8px;
+
+   grid-template-areas: 
+    'a a b d'
+    'a a c d'
+    'e f f g'}
+
+.gallery.move li:nth-child(1){grid-area: a}
+.gallery.move li:nth-child(2){grid-area: b}
+.gallery.move li:nth-child(3){grid-area: c}
+.gallery.move li:nth-child(4){grid-area: d}
+.gallery.move li:nth-child(5){grid-area: e}
+.gallery.move li:nth-child(6){grid-area: f}
+.gallery.move li:nth-child(7){grid-area: g}
+.gallery.move li:nth-child(8){display: none}
+.gallery.move li:nth-child(9){display: none}
+.gallery.move li:nth-child(10){display: none}
+.gallery.move li:nth-child(11){display: none}
+
+}
