@@ -45,3 +45,29 @@
 @media screen and (max-width:1280px) {
 }
 
+/* 테블릿 1024px */
+@media screen and (max-width:1024px) {
+   .imgBox .mainTxt{font-size: 5.5vw}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   .imgBox .mainTxt{font-size: 7vw}
+
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+#wrap {min-width:320px}
+
+
+}
