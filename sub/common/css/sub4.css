@@ -1,0 +1,28 @@
+@keyframes step {
+	0% {opacity:0}
+	80% {opacity:.5}
+	100% {opacity:1}
+}
+
+section{padding:100px 10%}
+section h3{font-size: 2vw;background-color:rgba(243,189,25,1);font-weight: bold;position: relative;
+           background-image: linear-gradient(135deg, rgba(249,189,25,1) 0%,rgba(249,242,149,1) 25%,rgba(222,174,71,1) 62%,rgba(237,201,103,1) 100%);
+           background-size: 100%;-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-family:'Quintessential', cursive}
+
+.intro p{margin-bottom: 50px}
+.grid-image-item,.grid--images .grid-sizer { width: 20%;}
+.grid-image-item {float: left; margin-bottom: 10px;position:relative}
+
+.grid-image-item img{display: block;width: 96%;margin: 10px auto}
+
+.grid-image-item p{opacity: 0;position: absolute;left: 0;bottom:10px;background: rgba(0,0,0,.6);width: 96%;text-align: center;margin: 0 auto;padding:15px 8px;transition: all .5s ease-out}
+.grid-image-item:hover p{opacity: 1}
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+/* #content{width:90%; margin:0 auto} */
+
+section h3{font-size: 2.6vw}
+/* section .moreBtn{width:45px;height:45px;line-height: 38px;font-size: 2em} */
+.intro{padding: 100px 5%}
+
+}
