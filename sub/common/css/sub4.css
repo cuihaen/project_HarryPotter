@@ -26,3 +26,53 @@ section h3{font-size: 2.6vw}
 .intro{padding: 100px 5%}
 
 }
+
+/* 테블릿 1024px */
+@media screen and (max-width:1024px) {
+.imgBox h3{font-size: 2.2vw}
+section h3{font-size: 2.8vw}
+
+.grid-image-item,
+.grid--images .grid-sizer { width: 25%}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+section.move h3{font-size: 3.2vw}
+.down{font-size: 2vw;}
+
+/* about(768px) */
+.intro p{font-size: 1.7vw;line-height: 3.3vw}
+
+.grid-image-item,
+.grid--images .grid-sizer {width: 33.33%;}
+
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+section h3{font-size: 3.7vw}
+
+/* about(640px) */
+.intro p{font-size: 3vw;line-height: 5.5vw}
+
+.grid-image-item,
+.grid--images .grid-sizer {width: 50%}
+
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+#wrap {min-width:320px}
+section h3{font-size: 5vw}
+
+
+
+
+}
+
+
