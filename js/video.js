@@ -12,7 +12,6 @@ $(document).ready(function() {
           $("#videoBG").show();
           $("#videoBG").attr('src','./images/harry_potter2.mp4');
           $("#imgBG").hide();
-          // $("#chractersCard>div").removeClass('min_swiper').addClass('swiper1');
 
           current=true;
         }
@@ -20,7 +19,6 @@ $(document).ready(function() {
           $("#videoBG").hide();
           $("#videoBG").attr('src','');
           $("#imgBG").show();
-          //$("#chractersCard>div").removeClass('swiper1').addClass('min_swiper');
 
           current=false;
       }
