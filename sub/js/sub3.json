@@ -29,25 +29,25 @@
         {
             "title":"Harry Potter OST - 1", 
             "text":"Hedwig's Theme", 
-            "mp3":"./images/content3/music/music_01.mp3", 
+            "mp3":"./images/content3/music/hedwig's_theme.mp3", 
             "image":"./images/content3/music/player_4.png"
         },
         {
             "title":"Harry Potter OST - 2", 
             "text":"Reunion Of Friends",
-            "mp3":"./images/content3/music/ost.m4a", 
+            "mp3":"./images/content3/music/reunion_of_friends.mp3",
             "image":"./images/content3/music/player_4.png"
         },
         {
             "title":"Harry Potter OST - 3", 
             "text":"Secrets Of The Castle", 
-            "mp3":"./images/content3/music/music_01.mp3", 
+            "mp3":"./images/content3/music/secrets_of_the_castle.mp3", 
             "image":"./images/content3/music/player_4.png"
         },
         {
             "title":"Harry Potter OST - 4", 
             "text":"Christmas at Hogwarts", 
-            "mp3":"./images/content3/music/music_01.mp3", 
+            "mp3":"./images/content3/music/christmas_at_hogwarts.mp3", 
             "image":"./images/content3/music/player_4.png",
             "player_bar":"./images/content3/music/player_1.png"
         }
